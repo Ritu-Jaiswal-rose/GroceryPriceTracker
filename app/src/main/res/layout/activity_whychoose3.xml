@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -14,27 +15,29 @@
         android:layout_marginRight="20dp"
         android:src="@drawable/appphoto1" />
 
-    <EditText
+    <TextView
         android:id="@+id/edt_text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Secure and Reliable"
-        android:textSize="32dp"
+        android:textSize="32sp"
         android:textColor="@color/white"
         android:layout_marginTop="10dp"
         android:layout_below="@id/app_pic2"
-        android:paddingLeft="25dp"/>
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp" />
 
-    <EditText
+    <TextView
         android:id="@+id/edt_text4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Your data is safe with us,ensuring a worry-free app experience."
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textColor="@color/light_grey"
         android:layout_marginTop="10dp"
         android:layout_below="@id/edt_text3"
-        android:paddingLeft="20dp"/>
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
 
 
     <Button
@@ -50,6 +53,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp" />
 
 </RelativeLayout>

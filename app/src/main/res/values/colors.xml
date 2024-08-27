@@ -12,5 +12,7 @@
     <color name="colorPrimary">#ff5f5f</color>
     <color name="silverWhite">#E2E5F3</color>
     <color name="grey">#A5A5A5</color>
+    <color name="light_white">#CCCCCC</color>
+    <color name="buttonBackground">#252742</color>
 
 </resources>

@@ -1,41 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/dark_blue">
 
-    <EditText
+    <TextView
         android:id="@+id/edt_text1"
         android:layout_width="match_parent"
         android:layout_height="97dp"
         android:layout_marginTop="400dp"
-        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:text="Discover the Top UK Supermarket Price"
         android:textColor="@color/white"
-        android:textSize="28dp" />
+        android:textSize="28sp" />
 
-    <EditText
+    <TextView
         android:id="@+id/edt_text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Comparison App"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textColor="@color/white"
         android:layout_marginTop="3dp"
         android:layout_below="@id/edt_text1"
-        android:paddingLeft="20dp"/>
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
 
-    <EditText
+    <TextView
         android:id="@+id/edt_text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Compare prices,find deals,and save on groceries with just a few taps.Shop Smarter with real-time updates from all major UK supermarkets. "
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textColor="@color/light_grey"
         android:layout_marginTop="3dp"
         android:layout_below="@id/edt_text2"
-        android:paddingLeft="20dp"/>
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
 
 
     <Button
@@ -49,8 +53,8 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"/>
+        android:layout_marginRight="20dp" />
 
 </RelativeLayout>
