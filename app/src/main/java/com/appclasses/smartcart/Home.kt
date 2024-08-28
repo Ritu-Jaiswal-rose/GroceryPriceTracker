@@ -57,8 +57,9 @@ class Home : AppCompatActivity() {
         reportbutton=findViewById(R.id.report_button)
 
         // Setting listeners
-        profile.setOnClickListener {
-            Toast.makeText(applicationContext, "Mobile App Still Is Still Been Improved On.", Toast.LENGTH_SHORT).show()
+        profile.setOnClickListener{
+            val intent=Intent(this,SignUp::class.java)
+            startActivity(intent)
         }
 
 
